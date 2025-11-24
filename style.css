@@ -642,7 +642,8 @@ html {
 
   .img-box {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 80);
   }
 
   .img-box::after {
@@ -651,7 +652,8 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 80);
   }
 
   .img-box>div {
@@ -659,7 +661,8 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 80);
   }
 
   .top__masthead {
@@ -707,7 +710,7 @@ html {
     height: 1300px;
   }
 
-  .s_01:last-child .accordion_one .accordion_inner .box_one {
+  .s_01 .accordion_one:last-child .accordion_inner .box_one {
     height: 1100px;
   }
 
